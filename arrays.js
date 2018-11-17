@@ -6,10 +6,14 @@ function addElementToBeginningOfArray(Array,Element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(Array,Element) {
-  var Array = Array.push(Element);
+  Array.push(Element);
   return Array;
 }
 
 function accessElementInArray(Array,Index) {
   return Array[Index];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(Array,Element) {
+  
 }
