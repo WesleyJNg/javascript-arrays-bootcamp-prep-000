@@ -10,6 +10,16 @@ function destructivelyAddElementToBeginningOfArray(Array,Element) {
   return Array;
 }
 
+function addElementToEndOfArray(Array,Element) {
+  var newArray = [... Array, Element];
+  return newArray;
+}
+
+function destructivelyAddElementToEndOfArray(Array,Element) {
+  Array.push(Element);
+  return Array;
+}
+
 function accessElementInArray(Array,Index) {
   return Array[Index];
 }
