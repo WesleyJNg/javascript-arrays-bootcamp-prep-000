@@ -9,3 +9,7 @@ function destructivelyAddElementToBeginningOfArray(Array,Element) {
   var Array = Array.push(Element);
   return Array;
 }
+
+function accessElementInArray(Array,Index) {
+  return Array[Index];
+}
